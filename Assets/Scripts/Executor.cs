@@ -36,6 +36,7 @@ public class Executor : MonoBehaviour
     public void Enter()
     {
         String = input.text;
+        UConsole.WriteLine(input.text);
         input.text = "";
     }
 }

@@ -2,6 +2,6 @@
 {
     public static void Main()
     {
-        // свой код
+        UConsole.WriteLine("Hello, world!");
     }
 }
